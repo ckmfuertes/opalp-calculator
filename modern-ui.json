@@ -5,7 +5,48 @@
   "typescript": true,
   "tailwind": true,
   "framework": "vite",
-  "components": [],
+  "components": [
+    {
+      "name": "card",
+      "version": "latest",
+      "installedAt": "2025-11-07T13:55:28.660Z"
+    },
+    {
+      "name": "button",
+      "version": "latest",
+      "installedAt": "2025-11-07T13:58:18.665Z"
+    },
+    {
+      "name": "switch",
+      "version": "latest",
+      "installedAt": "2025-11-07T14:30:10.058Z"
+    },
+    {
+      "name": "label",
+      "version": "latest",
+      "installedAt": "2025-11-07T14:33:52.683Z"
+    },
+    {
+      "name": "input",
+      "version": "latest",
+      "installedAt": "2025-11-07T15:27:47.826Z"
+    },
+    {
+      "name": "calendar",
+      "version": "latest",
+      "installedAt": "2025-11-07T15:31:50.768Z"
+    },
+    {
+      "name": "popover",
+      "version": "latest",
+      "installedAt": "2025-11-07T15:31:57.687Z"
+    },
+    {
+      "name": "date-picker",
+      "version": "latest",
+      "installedAt": "2025-11-07T15:32:01.344Z"
+    }
+  ],
   "aliases": {
     "cn": "@/lib/utils",
     "hook": "@/hooks"

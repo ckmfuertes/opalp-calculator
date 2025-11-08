@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap");
 @import "tailwindcss";
 @plugin 'tailwindcss-animate';
 @custom-variant dark (&:where(.dark, .dark *));
@@ -32,8 +33,26 @@
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
-}
 
+  --color-background-light: #ffffff;
+  --color-background-dark: #121212;
+
+  --color-text-light: #000000;
+  --color-text-dark: #fefefe;
+
+  --color-card-surface-light: #f0f0f0;
+  --color-card-surface-dark: #282828;
+
+  --color-input-surface-light: #e1e1e1;
+  --color-input-surface-dark: #0b0809;
+
+  --color-primary-light: #3cc8ae;
+  --color-primary-dark: #37c3a9;
+
+  --color-secondary-light: #93c9e1;
+  --color-secondary-dark: #1e556c;
+  
+}
 
 :root {
   --radius: 0.5rem;
@@ -104,3 +123,15 @@
   --sidebar-ring: oklch(0.552 0.016 285.938);
 }
 
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  /* border: red 2px solid; */
+}
